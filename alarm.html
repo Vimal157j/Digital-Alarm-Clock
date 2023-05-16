@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>  
+            digital Alarm clock
+        </title>
+        <link rel="stylesheet" href="alarm.css">
+        <script src="https://kit.fontawesome.com/e658fbe230.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="timer-display">00:00:00 AM</div>
+            <div class="container">
+                <div class="inputs">
+                    <input type="number" id="hourInput" placeholder="00" min="0" max="23" />
+                    <input type="number" id="minuteInput" placeholder="00" min="0" max="59"/>
+                    <input type="number" id="secondInput" placeholder="00" min="0" max="59"/>
+                    <select name="amp" id="ampm">
+                        <option value="volvo">AM</option>
+                        <option value="saab">PM</option>
+                    </select>
+                </div>
+            </div>
+            <button id="set">Add Alarm</button>
+            <div class="activeAlarms"></div>
+        </div>
+       
+
+
+
+    <script src="alarm.js"></script>    
+    </body>
+</html>
